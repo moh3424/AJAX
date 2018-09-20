@@ -18,6 +18,6 @@ while($employes = $resultat -> fetch(PDO::FETCH_ASSOC)){
 }
 
 ///-----------------------------
-echo json_encode($tab);
+echo json_encode($tab); // Pour verifier que tout est bien récupérer dans ce fichier PHP.
 
 
